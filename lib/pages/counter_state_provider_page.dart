@@ -20,6 +20,7 @@ class CounterStateProviderPage extends ConsumerWidget {
       ),
       body: Center(
         child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Text('Count: $counter'),
             CounterIsEven(),
